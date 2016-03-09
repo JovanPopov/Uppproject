@@ -1,0 +1,31 @@
+id: bankar
+name: Bankar
+type: assignment
+---
+id: manager
+name: Manager
+type: assignment
+
+---
+
+id: narucilac   
+name: Narucilac
+type: assignment
+
+---
+
+id: kandidati_za_komisiju   
+name: KandidatiZaKomisiju
+type: assignment
+
+---
+
+id: clanovicKomisije   
+name: ClanovicKomisije
+type: assignment
+
+---
+
+id: Kandidati   
+name: Kandidati
+type: assignment
