@@ -82,7 +82,7 @@
       <sequenceFlow id="flow26" sourceRef="usertask7" targetRef="usertask8"></sequenceFlow>
       <exclusiveGateway id="exclusivegateway8" name="Exclusive Gateway"></exclusiveGateway>
       <sequenceFlow id="flow28" sourceRef="usertask8" targetRef="exclusivegateway8"></sequenceFlow>
-      <serviceTask id="servicetask3" name="Upis ponudjaca u listu"></serviceTask>
+      <serviceTask id="servicetask3" name="Upis ponudjaca u listu" activiti:class="activity.spring.tender.serviceTasks.UpisPonudjacaUListu"></serviceTask>
       <exclusiveGateway id="exclusivegateway9" name="Exclusive Gateway"></exclusiveGateway>
       <sequenceFlow id="flow35" sourceRef="eventgateway1" targetRef="timerintermediatecatchevent2"></sequenceFlow>
       <sequenceFlow id="flow38" sourceRef="exclusivegateway9" targetRef="eventgateway1">
